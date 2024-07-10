@@ -46,9 +46,8 @@ apt install nfs-common
 root@nfsc:~# echo "192.168.50.10:/srv/share/ /mnt nfs vers=3,noauto,x-systemd.automount 0 0" >> /etc/fstab
 ```
 
-Проверка монтирования
+Проверка монтирования - screen "mount"
 ```
-screen "mount"
 ```
 Результат
 Выполненные при конфигурировании сервера и клиента команды внесены в скрипты для автоматического конфигурирования машин.
